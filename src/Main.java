@@ -13,7 +13,7 @@ System.out.println("Quess my name!");
 		 i++;
 		if(Vastaus.equalsIgnoreCase("Mikko")) {
 			
-			System.out.println("Arvasit oikein! " + i + "- Kerralla!");
+			System.out.println("Arvasit oikein! " + i + "-Kerralla!");
 			break;
 		}
 		else if (i == 5){
@@ -21,7 +21,7 @@ System.out.println("Quess my name!");
 			System.out.println(oikea.substring(0, 1));
 		
 		}else if (i == 10){
-			System.out.println("Oikean nimen kaksi ensimmäistä kirjaintä on ");
+			System.out.println("Oikean nimen kaksi ensimmäistä kirjainta on ");
 			System.out.println(oikea.substring(0, 2));
 		
 		}
