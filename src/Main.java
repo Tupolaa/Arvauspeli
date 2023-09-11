@@ -5,6 +5,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		String Vastaus;
+		String oikea = "Mikko";
 		int i = 0;
 	do {
 System.out.println("Quess my name!");
@@ -14,6 +15,15 @@ System.out.println("Quess my name!");
 			
 			System.out.println("Arvasit oikein! " + i + "- Kerralla!");
 			break;
+		}
+		else if (i == 5){
+			System.out.println("Oikean nimen ensimmäinen kirjain on ");
+			System.out.println(oikea.substring(0, 1));
+		
+		}else if (i == 10){
+			System.out.println("Oikean nimen kaksi ensimmäistä kirjaintä on ");
+			System.out.println(oikea.substring(0, 2));
+		
 		}
 	
 	}while (!Vastaus.equals("loppu"));
